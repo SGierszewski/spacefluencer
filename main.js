@@ -7,7 +7,7 @@ const headerElement = createElement("header", {
   className: "header",
   children: [
     createElement("h1", {
-      className: "title",
+      className: "header-title",
       innerText: "Spacefluencer",
     }),
   ],
@@ -35,6 +35,9 @@ const mainElement = createElement("main", {
       className: "main-title",
       innerText: "Meet your favorite Spacefluencer",
     }),
+    createElement("p", {
+      innerText: "and see how they capture Mars day by day...",
+    }),
     roverSection,
   ],
 });
@@ -50,15 +53,15 @@ const footerElement = createElement("footer", {
           innerText: "Made with ",
         }),
         createElement("span", {
-          className: "footer-info_logo",
+          className: "footer-info__logo",
           innerText: "❤",
         }),
         createElement("span", {
-          className: "footer-info_text",
+          className: "footer-info__text",
           innerText: " and ",
         }),
         createElement("span", {
-          className: "footer-info_link",
+          className: "footer-info__link",
           children: [
             createElement("a", {
               href: "https://api.nasa.gov/",
@@ -75,8 +78,8 @@ document
   .querySelector("#app")
   .append(headerElement, mainElement, footerElement);
 
-fetch(
-  `https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?api_key=WOyfELI8lB2BmbG3Y6doTsCTqYqLP1L0twnkeIIy&sol=90`
-)
-  .then((response) => response.json())
-  .then((data) => console.log(data));
+// fetch(
+//   `https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?api_key=WOyfELI8lB2BmbG3Y6doTsCTqYqLP1L0twnkeIIy&sol=90`
+// )
+//   .then((response) => response.json())
+//   .then((data) => console.log(data));
