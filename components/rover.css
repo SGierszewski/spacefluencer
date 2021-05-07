@@ -1,0 +1,12 @@
+.characters {
+  background-color: cadetblue;
+  color: #2c3e50;
+}
+
+.characters__title {
+  color: darkgoldenrod;
+}
+
+.rover__image {
+  opacity: 0;
+}
