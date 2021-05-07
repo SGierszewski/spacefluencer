@@ -14,12 +14,11 @@ const headerElement = createElement("header", {
 });
 const roverSection = createElement("section", {
   className: "rover-list",
-  children: [
-    createElement("div", {
-      className: "rover-list__intro",
-      innerText: "Display popular Spacefluencer here...",
-    }),
-  ],
+  // children: [
+  //   createElement("div", {
+  //     className: "rover-list__intro",
+  //   }),
+  // ],
 });
 
 ["curiosity", "spirit", "opportunity"].map((rover) =>

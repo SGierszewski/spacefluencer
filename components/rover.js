@@ -21,6 +21,7 @@ export function createRoverElement({
     className: "rover",
     children: [
       createElement("img", {
+        className: "rover-image",
         src: `../assets/${name.toLowerCase()}.png`,
       }),
       // Link to details page using id

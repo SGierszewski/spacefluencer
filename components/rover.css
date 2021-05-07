@@ -1,12 +1,35 @@
-.characters {
-  background-color: cadetblue;
-  color: #2c3e50;
+.rover-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5em;
+  margin: 0 4em 0 4em;
 }
 
-.characters__title {
-  color: darkgoldenrod;
+.rover-image {
+  width: 15em;
+  height: auto;
+  border-radius: 50%;
+  border: 2px solid #2c3e50;
+  margin-top: 1em;
 }
 
-.rover__image {
-  opacity: 0;
+.rover a {
+  text-decoration: none;
+  font-size: 1.5em;
+  color: bisque;
+}
+
+.rover p {
+  font-size: 1.3em;
+  font-weight: 500;
+  color: bisque;
+}
+
+.rover {
+  background-color: #3c4c5c;
+  border-radius: 7%;
+}
+
+.footer {
+  padding: 3em;
 }

@@ -13,7 +13,7 @@ export async function getPhotos(rover, date) {
 
 export async function getRoverInfo(name) {
   const promise = fetch(
-    `https://api.nasa.gov/mars-photos/api/v1/rovers/${name}?api_key=DEMO_KEY`
+    `https://api.nasa.gov/mars-photos/api/v1/rovers/${name}?api_key=WOyfELI8lB2BmbG3Y6doTsCTqYqLP1L0twnkeIIy`
   );
   const response = await promise;
   if (response.status === 404) {
