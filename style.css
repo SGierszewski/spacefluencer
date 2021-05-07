@@ -34,7 +34,6 @@ main {
 }
 
 .rover__image {
-  opacity: 0;
   width: 10%;
   height: auto;
 }
