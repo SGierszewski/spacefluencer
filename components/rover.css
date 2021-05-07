@@ -6,3 +6,7 @@
 .characters__title {
   color: darkgoldenrod;
 }
+
+.rover__image {
+  opacity: 0;
+}

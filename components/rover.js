@@ -1,4 +1,4 @@
-import "./character.css";
+import "./rover.css";
 import { createElement } from "../utils/elements";
 
 // "rover": {
@@ -10,7 +10,7 @@ import { createElement } from "../utils/elements";
 //   }
 
 // Function to create character element for intro section
-export function createCharacterElement({
+export function createRoverElement({
   //id,
   name,
   landing_date,
@@ -18,14 +18,17 @@ export function createCharacterElement({
   status,
 }) {
   return createElement("div", {
-    className: "characters",
+    className: "rover",
     children: [
+      createElement("img", {
+        src: `../assets/${name.toLowerCase()}.png`,
+      }),
       // Link to details page using id
       createElement("a", {
-        href: "",
+        href: `/details.html?rover=${name.toLowerCase()}`,
         children: [
           createElement("h3", {
-            className: "characters__title",
+            className: "rover__name",
             innerText: name,
           }),
         ],
