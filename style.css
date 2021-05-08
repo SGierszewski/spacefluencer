@@ -1,7 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;800&family=Roboto:wght@300;400&display=swap");
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
+}
+
+:root {
+  --primary-font-family: "Orbitron", sans-serif;
+  --secondary-font-family: "Roboto", sans-serif;
+  --primary-text-color: #2c3e50;
+  --secondary-text-color: #ffe4c4;
 }
 
 body {
@@ -11,29 +20,54 @@ body {
 }
 
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 50px;
 }
 
 main {
   color: #2c3e50;
 }
 
-.rover-list__intro {
-  background-color: #3c4c5c;
-  opacity: 50%;
-  color: bisque;
-  margin: 0 20% 0 20%;
-  padding: 2em;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+.header-title {
+  font-family: var(--primary-font-family);
+  font-size: 4em;
+  margin: 0;
+  padding: 1em 1em 0.5em 1em;
+}
+
+.main-title {
+  font-family: var(--secondary-font-family);
+  font-size: 2em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+main p {
+  font-family: var(--secondary-font-family);
+  font-size: 1.3em;
+  font-weight: 600;
+  margin-top: 0.5em;
+  margin-bottom: 3em;
 }
 
 .rover__image {
   width: 10%;
   height: auto;
+}
+
+.footer-info__text {
+  font-family: var(--secondary-font-family);
+  font-weight: 500;
+  font-size: 1.5em;
+}
+
+.footer-info__link a {
+  text-decoration: none;
+  font-family: var(--secondary-font-family);
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 1.5em;
 }
