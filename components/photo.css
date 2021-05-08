@@ -1,0 +1,12 @@
+.photo img {
+  width: 22em;
+  height: auto;
+}
+
+.photo p {
+  background-color: var(--primary-text-color);
+  color: var(--secondary-text-color);
+  font-family: var(--secondary-font-family);
+  font-size: 1em;
+  margin: 0.5em;
+}

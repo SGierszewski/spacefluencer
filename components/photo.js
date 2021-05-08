@@ -1,3 +1,5 @@
+import "/style.css";
+import "./photo.css";
 import { createElement } from "../utils/elements";
 
 // Function to create photo element for details section
