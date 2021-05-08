@@ -60,12 +60,14 @@ main p {
 
 .footer-info__text {
   font-family: var(--secondary-font-family);
-  font-weight: 600;
+  font-weight: 500;
+  font-size: 1.5em;
 }
 
 .footer-info__link a {
   text-decoration: none;
   font-family: var(--secondary-font-family);
   color: var(--secondary-text-color);
-  font-weight: 600;
+  font-weight: 500;
+  font-size: 1.5em;
 }
