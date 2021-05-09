@@ -1,5 +1,35 @@
+.main-title {
+  font-family: var(--primary-font-family);
+  margin-bottom: 2em;
+}
+
+.date-input {
+  border-radius: 1.5em;
+  color: #2c3e50;
+}
+
 .photo-list {
-  color: darkorchid;
+  /* background-color: var(--primary-text-color); */
+  color: var(--secondary-text-color);
+  font-family: var(--secondary-font-family);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 2em;
+  margin: 1em 3em 2em 3em;
+}
+
+.photo-list__description {
+  font-size: 1.2em;
+  font-weight: 400;
+  grid-area: 1/1/2/4;
+  text-align: center;
+  margin: 1em;
+}
+
+main {
+  width: 100vw;
+  margin: 0;
 }
 
 main a {
