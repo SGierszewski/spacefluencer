@@ -1,25 +1,26 @@
 .rover-list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 4em;
-  margin: 0 6em 0 6em;
+  gap: 2em;
+  margin: 0 8em 0 8em;
 }
 
 .rover {
   background-color: #3c4c5c;
+  width: 15em;
   border-radius: 2em;
 }
 
 .rover-image {
   width: 15em;
   height: auto;
-  border-radius: 2em;
+  border-top-left-radius: 2em;
+  border-top-right-radius: 2em;
   border: 2px solid #2c3e50;
-  margin-top: 0.8em;
 }
 
 .rover h3 {
-  margin-top: 0.5em;
+  margin: 0.5em;
 }
 
 .rover a {
@@ -30,7 +31,7 @@
 }
 
 .rover span {
-  font-family: var(--secondary-font-family);
+  font-family: var(--primary-font-family);
   color: var(--secondary-text-color);
   font-size: 1em;
 }

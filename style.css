@@ -34,9 +34,9 @@ main {
 
 .header-title {
   font-family: var(--primary-font-family);
-  font-size: 4em;
+  font-size: 5em;
   margin: 0;
-  padding: 1em 1em 0.5em 1em;
+  padding: 0 0.5em 0.5em 0.5em;
 }
 
 .main-title {
@@ -51,12 +51,7 @@ main p {
   font-size: 1.3em;
   font-weight: 600;
   margin-top: 0.5em;
-  margin-bottom: 3em;
-}
-
-.rover__image {
-  width: 10%;
-  height: auto;
+  margin-bottom: 2em;
 }
 
 .footer-info__text {
