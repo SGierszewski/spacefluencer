@@ -5,6 +5,11 @@
   margin: 0 6em 0 6em;
 }
 
+.rover {
+  background-color: #3c4c5c;
+  border-radius: 2em;
+}
+
 .rover-image {
   width: 15em;
   height: auto;
@@ -24,17 +29,18 @@
   color: bisque;
 }
 
-.rover p {
-  font-size: 1.3em;
+.rover span {
   font-family: var(--secondary-font-family);
-  font-weight: 500;
   color: var(--secondary-text-color);
-  margin: 0.5em;
+  font-size: 1em;
 }
 
-.rover {
-  background-color: #3c4c5c;
-  border-radius: 2em;
+.rover p {
+  font-family: var(--secondary-font-family);
+  font-size: 1.1em;
+  font-weight: 900;
+  color: var(--highlight-text-color);
+  margin: 0.8em;
 }
 
 .footer {

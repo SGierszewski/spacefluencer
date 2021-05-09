@@ -34,9 +34,18 @@ export function createRoverElement({
           }),
         ],
       }),
-      createElement("p", { innerText: status }),
-      createElement("p", { innerText: landing_date }),
-      createElement("p", { innerText: launch_date }),
+      createElement("span", {
+        innerText: "Mission status: ",
+        children: [createElement("p", { innerText: status })],
+      }),
+      createElement("span", {
+        innerText: "Landing date: ",
+        children: [createElement("p", { innerText: landing_date })],
+      }),
+      createElement("span", {
+        innerText: "Launch date: ",
+        children: [createElement("p", { innerText: launch_date })],
+      }),
     ],
   });
 }

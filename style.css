@@ -11,6 +11,7 @@
   --secondary-font-family: "Roboto", sans-serif;
   --primary-text-color: #2c3e50;
   --secondary-text-color: #ffe4c4;
+  --highlight-text-color: #6a8365;
 }
 
 body {
@@ -64,10 +65,15 @@ main p {
   font-size: 1.5em;
 }
 
+.footer-info__logo {
+  color: var(--highlight-text-color);
+  font-size: 2em;
+}
+
 .footer-info__link a {
   text-decoration: none;
   font-family: var(--secondary-font-family);
-  color: var(--secondary-text-color);
-  font-weight: 500;
+  color: var(--primary-text-color);
+  font-weight: 900;
   font-size: 1.5em;
 }

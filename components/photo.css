@@ -18,7 +18,7 @@
 
 .photo-section p {
   font-family: var(--secondary-font-family);
-  color: #6a8365;
+  color: var(--highlight-text-color);
   font-size: 1.1em;
   font-weight: 900;
   margin: 0.8em;
