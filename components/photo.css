@@ -1,0 +1,25 @@
+.photo img {
+  width: 20em;
+  height: auto;
+  border-top-left-radius: 2em;
+  border-top-right-radius: 2em;
+}
+
+.photo-section {
+  background-color: var(--primary-text-color);
+  color: var(--secondary-text-color);
+  font-family: var(--primary-font-family);
+  font-size: 1em;
+  border-radius: 2em;
+  border: 0.2em solid rgb(22, 21, 21);
+  padding-bottom: 0.2em;
+  width: 20.5em;
+}
+
+.photo-section p {
+  font-family: var(--secondary-font-family);
+  color: #6a8365;
+  font-size: 1.1em;
+  font-weight: 900;
+  margin: 0.8em;
+}
