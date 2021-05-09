@@ -46,7 +46,7 @@ const mainElement = createElement("main", {
     photoSection,
     createElement("a", {
       href: "/index.html",
-      innerText: "Back to overview",
+      innerText: "Back to choose another Spacefluencer",
     }),
   ],
 });

@@ -16,6 +16,7 @@ export function createRoverElement({
   landing_date,
   launch_date,
   status,
+  total_photos,
 }) {
   return createElement("div", {
     className: "rover",
@@ -24,7 +25,7 @@ export function createRoverElement({
         className: "rover-image",
         src: `../assets/${name.toLowerCase()}.png`,
       }),
-      // Link to details page using id
+      // Link to details page using rover name
       createElement("a", {
         href: `/details.html?rover=${name.toLowerCase()}`,
         children: [
@@ -39,12 +40,16 @@ export function createRoverElement({
         children: [createElement("p", { innerText: status })],
       }),
       createElement("span", {
+        innerText: "Launch date: ",
+        children: [createElement("p", { innerText: launch_date })],
+      }),
+      createElement("span", {
         innerText: "Landing date: ",
         children: [createElement("p", { innerText: landing_date })],
       }),
       createElement("span", {
-        innerText: "Launch date: ",
-        children: [createElement("p", { innerText: launch_date })],
+        innerText: "Number of photos: ",
+        children: [createElement("p", { innerText: total_photos })],
       }),
     ],
   });
