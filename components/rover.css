@@ -21,6 +21,22 @@
 
 .rover h3 {
   margin: 0.5em;
+
+  /* animation-name: rover; */
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rover {
+  from {
+    color: var(--secondary-text-color);
+  }
+  50% {
+    color: var(--highlight-text-color);
+  }
+  to {
+    color: var(--secondary-text-color);
+  }
 }
 
 .rover a {

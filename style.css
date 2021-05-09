@@ -37,6 +37,21 @@ main {
   font-size: 5em;
   margin: 0;
   padding: 0 0.5em 0.5em 0.5em;
+  animation-name: rainbow;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rainbow {
+  from {
+    color: var(--primary-text-color);
+  }
+  50% {
+    color: rgb(150, 76, 42);
+  }
+  to {
+    color: var(--primary-text-color);
+  }
 }
 
 .main-title {
