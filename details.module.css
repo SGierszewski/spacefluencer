@@ -17,6 +17,8 @@
   grid-template-rows: auto;
   grid-gap: 2em;
   margin: 1em 3em 2em 3em;
+  height: 75vh;
+  overflow: scroll;
 }
 
 .photo-list__description {
@@ -28,7 +30,8 @@
 }
 
 main {
-  width: 100vw;
+  /* width: 100vw; */
+  height: 100vh;
   margin: 0;
 }
 
